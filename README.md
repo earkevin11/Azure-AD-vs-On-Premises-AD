@@ -44,4 +44,4 @@
 - Federation Server Proxy: The Proxy is deployed on the extranet of the organization, to which external clients connect when requesting a security token. It forwards these requests to the Federation Server. The Federation server is not exposed directly to the internet to prevent security risks.
 - ADFS Web Server: It hosts the ADFS Web Agent which manages the security tokens and authentication cookies sent to it for authentication purposes.
  
-z
+
