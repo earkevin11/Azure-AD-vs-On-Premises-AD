@@ -38,3 +38,9 @@
   
 <p/>
 
+# What are the components of ADFS?
+- Active Directory: The Identity Information which is to be used by ADFS is stored on the Active Directory.
+- Federation Server: It contains the tools needed to manage federated trusts between business partners. It processes authentication requests coming in from external users and hosts a security token service that issues tokens for claims based on verification of credentials from AD.
+- Federation Server Proxy: The Proxy is deployed on the extranet of the organization, to which external clients connect when requesting a security token. It forwards these requests to the Federation Server. The Federation server is not exposed directly to the internet to prevent security risks.
+- ADFS Web Server: It hosts the ADFS Web Agent which manages the security tokens and authentication cookies sent to it for authentication purposes.
+ 
